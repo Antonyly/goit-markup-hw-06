@@ -65,6 +65,69 @@
                     <svg class="close" width="30" height="30" data-modal-close>
                         <use href="./icons/sprite.svg#close"></use>
                     </svg>
+
+
+        <!-- ========= FORM ========= -->
+
+
+
+                    <form class="form-section">
+                        <div class="form-components">
+                        <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
+                <div class="form-wrapper">
+                        <label class="form-label">
+                            <span class="form-text">Имя</span>
+                            
+                            <span class="contact-form-input">
+                                <input name="user_name" type="text" class="form-window" required>
+                                <svg class="form-user-icon" width="18" height="18">
+                                    <use href="/icons/sprite.svg#form-person" ></use>
+                                </svg>
+                            </span>
+                        </label>
+                </div>
+
+                        <label class="form-label">
+                            <span class="form-text">Телефон</span>
+                            <span class="contact-form-input">
+                                <input name="user_phone" type="tel" class="form-window" required>
+                                <svg class="form-user-icon" width="18" height="18">
+                                    <use href="/icons/sprite.svg#form-phone" ></use>
+                                </svg>
+                            </span>
+                        </label>
+
+
+                        <label class="form-label">
+                            <span class="form-text">Почта</span>
+                            <span class="contact-form-input">
+                                <input name="user_mail" type="mail" class="form-window" required>
+                                <svg class="form-user-icon" width="18" height="18">
+                                    <use href="/icons/sprite.svg#form-mail" ></use>
+                                </svg>
+                            </span>
+                        </label>
+
+
+                        <label class="form-label">
+                            <div class="form-text">Комментарий</div>
+                            <textarea name="user-massage" class="form-massage" placeholder="Введите текст"></textarea>
+                        </label>
+
+                        <div class="contact-form-box">
+                            
+                        
+                            <input class="icon-check visually-hidden" name="accept-policy" type="checkbox" id="check" required>
+                        <label for="check" class="policy-label" > Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="check-link">Условия договора</a></label>
+                    
+                    </div>
+                        
+                        <button type="submit" class="form-btn">Отправить</button>
+                        </div>
+                    </form>
+
+
+
                 </div>
             </div>
         </section>
@@ -436,7 +499,33 @@
                         </li>
                     </ul>
                 </div>
+                <div class="footer-form-container">
+                <form class="footer-form">
+                
+                
+                    <p class="footer-form-text">Подпишитесь на рассылку</p>
+                
+                
+<div class="btn-section">
+                        <input name="user_mail" type="mail" class="footer-input" required placeholder="E-mail">
+                
+                    <button type="submit" class="footer-btn">Подписаться</button>
+                    </div>
+                </form>
+                </div>
+                
             </div>
+
+
+
+
+
+            
+
+
+
+
+
         </section>
     </footer>
     <script>
