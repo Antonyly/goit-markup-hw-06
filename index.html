@@ -506,15 +506,15 @@
                     <p class="footer-form-text">Подпишитесь на рассылку</p>
                 
                 
-<div class="btn-section">
-                        <input name="user_mail" type="mail" class="footer-input" required placeholder="E-mail">
-                
-                    <button type="submit" class="footer-btn">Подписаться</button>
+                <div class="btn-section">
+                            <input name="user_mail" type="mail" class="footer-input" required placeholder="E-mail">
+                    
+                        <button type="submit" class="footer-btn">Подписаться</button>
+                        </div>
+                    </form>
                     </div>
-                </form>
+                    
                 </div>
-                
-            </div>
 
 
 
@@ -526,25 +526,25 @@
 
 
 
-        </section>
-    </footer>
-    <script>
-        (() => {
-                const refs = {
-                    openModalBtn: document.querySelector("[data-modal-open]"),
-                    closeModalBtn: document.querySelector("[data-modal-close]"),
-                    modal: document.querySelector("[data-modal]"),
-                };
+            </section>
+        </footer>
+                <script>
+                    (() => {
+                        const refs = {
+                            openModalBtn: document.querySelector("[data-modal-open]"),
+                            closeModalBtn: document.querySelector("[data-modal-close]"),
+                            modal: document.querySelector("[data-modal]"),
+                        };
 
-                refs.openModalBtn.addEventListener("click", toggleModal);
-                refs.closeModalBtn.addEventListener("click", toggleModal);
+                        refs.openModalBtn.addEventListener("click", toggleModal);
+                        refs.closeModalBtn.addEventListener("click", toggleModal);
 
-                function toggleModal() {
-                    refs.modal.classList.toggle("is-hidden");
-                }
-            })();
-    </script>
+                        function toggleModal() {
+                            refs.modal.classList.toggle("is-hidden");
+                        }
+                    })();
+                </script>
     
-</body>
+    </body>
 
 </html>
